@@ -6,7 +6,7 @@ const readLine = require('readline');
 
 //build the connection and set the string connection timeout.
 //timeout is in milliseconds
-const connect = async () => {
+const connect = () => {
    setTimeout(() => mongoose.connect(dbURI, {
    }), 1000);
 }
